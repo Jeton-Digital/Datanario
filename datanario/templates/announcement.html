@@ -1,0 +1,39 @@
+{% extends 'dashboard.html' %}
+{% load static %}
+{% load icon %}
+
+{% block dashboard_title %} Announcement {% endblock dashboard_title %}
+
+{% block main %}
+  
+  <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+    <h1 class="h2">Announcement</h1>
+  </div>
+
+  <div class="my-3 p-3 bg-white rounded shadow-sm">
+    <h6 class="border-bottom border-gray pb-2 mb-0">What is new?</h6>
+    <div class="media text-muted pt-3">
+      {% icon "inbox" height="40" width="40" %}
+      <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+        <strong class="d-block text-gray-dark">@admin</strong>
+        <b>08/11/2021: </b>{% lorem 8 b random %}
+      </p>
+    </div>
+    <div class="media text-muted pt-3">
+      {% icon "inbox" height="40" width="40" %}
+      <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+        <strong class="d-block text-gray-dark">@admin</strong>
+        <b>08/11/2021: </b>{% lorem 7 b random %}
+      </p>
+    </div>
+    <div class="media text-muted pt-3">
+      {% icon "inbox" height="40" width="40" %}
+      <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
+        <strong class="d-block text-gray-dark">@admin</strong>
+        <b>08/11/2021: </b>{% lorem 5 b random %}
+      </p>
+    </div>
+  </div>
+
+
+{% endblock main %}

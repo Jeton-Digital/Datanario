@@ -1,0 +1,23 @@
+# Ignore log and pyc files
+*.log
+*.pyc
+
+# Ignore pycache folders
+*/*/*/__pycache__/
+*/*/__pycache__/
+*/__pycache__/
+
+# Ignore default database file
+db.sqlite3
+
+# Ignore media folder
+media
+
+# Ignore migration and static folders
+migrations
+datanario/static
+datanario/static_boot
+datanario/static_root
+
+# Ignore python version file
+.python-version
