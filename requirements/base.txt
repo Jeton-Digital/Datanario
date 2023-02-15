@@ -1,6 +1,6 @@
 asgiref==3.6.0
 crispy-bootstrap5==0.7
-Django==4.1.6
+Django==4.1.7
 django-crispy-forms==1.14.0
 django-feather==0.3.0
 django-widget-tweaks==1.4.12
